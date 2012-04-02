@@ -1,0 +1,14 @@
+<!DOCTYPE overlay SYSTEM "chrome://memorymenu/locale/memorymenu.dtd">
+<?xml version="1.0"?>
+<overlay xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+	<statusbar id="status-bar">
+		<script src="script.js" />
+		<button id="memory-menu" type="menu" label="&title;">
+			<menupopup position="before-start">
+				<menuitem label="&gc;" oncommand="MemoryMenu.doGlobalGC" />
+				<menuitem label="&cc;" oncommand="MemoryMenu.doCC" />
+				<menuitem label="&heapmin;" oncommand="MemoryMenu.sendHeapMinNotifications" />
+			</menupopup>
+		</button>
+	</statusbar>
+</overlay>

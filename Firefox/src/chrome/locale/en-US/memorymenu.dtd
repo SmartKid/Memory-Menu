@@ -1,0 +1,4 @@
+<!ENTITY title "Memory Menu">
+<!ENTITY gc "Garbage Collection">
+<!ENTITY cc "Cycle Collection">
+<!ENTITY heapmin "Minimize Memory Usage">
