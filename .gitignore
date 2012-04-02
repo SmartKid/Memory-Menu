@@ -1,0 +1,17 @@
+*.7z
+*.bz2
+*.gz
+*.rar
+*.tar
+*.tgz
+*.xpi
+*.xz
+*.zip
+
+*.log
+
+__MACOSX/
+.DS_Store*
+ehthumbs.db
+Thumbs.db
+Icon?
