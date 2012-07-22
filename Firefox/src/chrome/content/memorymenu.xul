@@ -2,7 +2,7 @@
 <?xml version="1.0"?>
 <overlay xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
 	<statusbar id="status-bar">
-		<script id="memory-menu-js" type="text/javascript" src="script.js" />
+		<script id="memory-menu-js" type="text/javascript" src="script.min.js" />
      	<button id="memory-menu" type="menu" label="&title;">
 			<menupopup position="before-start">
      			<menuitem label="&gc;" oncommand="ShivamDutt.MemoryMenu.doGlobalGC()" />
